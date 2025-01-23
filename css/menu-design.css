@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 mars 2023, 15:07:08
+    Author     : webmaster
+*/
+.accor_ibis {
+    position: absolute;
+    top: 67%;
+    left: 25%;
+    right: 25%;
+}
+
+.novo-menu {
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
+    background-color: white;
+}
+
+.novo-content {
+    margin-top: 259px;
+}
+
+/*.carous-menu a {
+    color: black;
+}*/
+
+/*.carous-menu .owl-item img {
+    width: auto;
+}*/
+/*.nav-item-menu {
+    padding-top: 2px;
+}
+.nav-item-menu span {
+    padding: .5rem 1rem;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item-menu.active {
+    background: #005357;
+}
+
+.nav-item-menu.active span {
+    color: white;
+}*/
+
+.owl-item.active.gauche {
+     position:relative;
+    transform: skewX(180deg) skewY(1.5deg);
+    -webkit-transform: skewX(180deg) skewY(1.5deg);
+    -moz-transform:skewX(180deg) skewY(1.5deg);
+    -o-transform:skewX(180deg) skewY(1.5deg);
+    -ms-transform:skewX(180deg) skewY(1.5deg);
+    transform: skewX(180deg) skewY(1.5deg);
+}
+.owl-item.active.droite {
+     position:relative;
+    transform: skewX(180deg) skewY(-1.5deg);
+    -webkit-transform: skewX(180deg) skewY(-1.5deg);
+    -moz-transform:skewX(180deg) skewY(-1.5deg);
+    -o-transform:skewX(180deg) skewY(-1.5deg);
+    -ms-transform:skewX(180deg) skewY(-1.5deg);
+    transform: skewX(180deg) skewY(-1.5deg);
+}
+
+.owl-item.active.vip-gauche {
+     position:relative;
+    transform: skewX(180deg) skewY(1.5deg);
+    -webkit-transform: skewX(180deg) skewY(1.5deg);
+    -moz-transform:skewX(180deg) skewY(1.5deg);
+    -o-transform:skewX(180deg) skewY(1.5deg);
+    -ms-transform:skewX(180deg) skewY(1.5deg);
+    transform: skewX(180deg) skewY(1.5deg);
+}
+.owl-item.active.vip-droite {
+     position:relative;
+    transform: skewX(180deg) skewY(-1.5deg);
+    -webkit-transform: skewX(180deg) skewY(-1.5deg);
+    -moz-transform:skewX(180deg) skewY(-1.5deg);
+    -o-transform:skewX(180deg) skewY(-1.5deg);
+    -ms-transform:skewX(180deg) skewY(-1.5deg);
+    transform: skewX(180deg) skewY(-1.5deg);
+}
+
+
+.loop .owl-item > div {
+  cursor: pointer;
+  margin: 3% 10% 3% 10%;
+  transition: margin 0.4s ease;
+}
+.loop .owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+.loop .owl-item:not(.center) > div:hover {
+  opacity: .75;
+}
+
+.accor_novotel {
+    position: absolute;
+    top: 67%;
+    left: 25%;
+    right: 25%;
+}
+
+
+@media (max-width: 1029px){
+    .accor_novotel {
+        top: 68%;
+        left: 28%;
+        right: 29%;
+    }
+    
+    .accor_ibis {
+    position: absolute;
+    top: 67%;
+    left: 18%;
+    right: 36%;
+}
+    
+}
+
+@media (max-width: 770px){
+    .accor_ibis {
+    position: absolute;
+    top: 67%;
+    left: 25%;
+    right: 25%;
+}
+    .accor_novotel {
+        top: 67%;
+        left: 25%;
+        right: 25%;
+    }
+}
+
+@media (max-width: 428px){
+    .accor_novotel {
+        top: 66%;
+        left: 25%;
+            right: 25%;
+    }
+}
+
+@media (max-width: 378px){
+    .accor_novotel {
+        top: 67%;
+        left: 25%;
+        right: 25%;
+    }
+}
