@@ -53,7 +53,7 @@ get_header(); ?>
             while( have_rows('menu-liste') ): the_row(); 
             $images = get_sub_field('gallery');
             ?>
-                <div id="<?php the_sub_field('id-carrousel'); ?>" class="<?php if($i != 0): echo 'd-none'; endif;?> <?php if (count($images) > 1): ?><?php endif;?> n-produit-carrouss d-flex justify-content-center">
+                <div id="<?php the_sub_field('id-carrousel'); ?>" class="<?php if($i != 0): echo 'd-none'; endif;?> <?php if (count($images) > 1): ?><?php endif;?> n-produit-carrouss d-flex justify-content-center flex-column">
                     <?php
                         
                         $lien_googles = get_sub_field('lien_google');
